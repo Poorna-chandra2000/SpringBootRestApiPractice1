@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Person Management</h1>
+
+<div id="personInput">
+    <input type="text" id="personId" placeholder="Enter Person ID">
+    <button onclick="getPersonDetails()">Get Person Details</button>
+</div>
+
+<div id="addPerson">
+    <h2>Add New Person</h2>
+    <input type="text" id="newName" placeholder="Name">
+    <input type="number" id="newAge" placeholder="Age">
+    <button onclick="addPerson()">Add Person</button>
+</div>
+
+<div id="personDetails"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
